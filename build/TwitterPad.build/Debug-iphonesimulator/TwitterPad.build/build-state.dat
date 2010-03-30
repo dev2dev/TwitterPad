@@ -1,950 +1,0 @@
-TTwitterPad
-v7
-r0
-t290867478.326486
-cCheck dependencies
-cProcessInfoPlistFile /Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator/TwitterPad.app/Info.plist TwitterPad-Info.plist
-cCompileXIB /Users/ssimonov/Projects/TwitterPad/MainWindow.xib
-cCompileXIB /Users/ssimonov/Projects/TwitterPad/DetailView.xib
-cProcessPCH /var/folders/oW/oWu1nSiZFmyvGSBkpyjLtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwitterPad_Prefix-cwapcyhusjeqtgdaodefqxqeussm/TwitterPad_Prefix.pch.gch TwitterPad_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/main.o /Users/ssimonov/Projects/TwitterPad/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/TwitterPadAppDelegate.o /Users/ssimonov/Projects/TwitterPad/Classes/TwitterPadAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/RootViewController.o /Users/ssimonov/Projects/TwitterPad/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/DetailViewController.o /Users/ssimonov/Projects/TwitterPad/Classes/DetailViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterEngine.o /Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterEngine.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterHTTPURLConnection.o /Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterHTTPURLConnection.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterLibXMLParser.o /Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterLibXMLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterStatusesLibXMLParser.o /Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterStatusesLibXMLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterUsersLibXMLParser.o /Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterUsersLibXMLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterMessagesLibXMLParser.o /Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterMessagesLibXMLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterMiscLibXMLParser.o /Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterMiscLibXMLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterXMLParser.o /Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterXMLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterStatusesParser.o /Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterStatusesParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterUsersParser.o /Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterUsersParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterMessagesParser.o /Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterMessagesParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterMiscParser.o /Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterMiscParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/NSString+UUID.o /Users/ssimonov/Projects/TwitterPad/Classes/NSString+UUID.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/NSData+Base64.o /Users/ssimonov/Projects/TwitterPad/Classes/NSData+Base64.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/TwitterPadAppDelegate+TwitterEngine.o /Users/ssimonov/Projects/TwitterPad/Classes/TwitterPadAppDelegate+TwitterEngine.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator/TwitterPad.app/TwitterPad normal i386
-cGenerateDSYMFile /Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator/TwitterPad.app.dSYM /Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator/TwitterPad.app/TwitterPad
-cTouch /Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator/TwitterPad.app
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk
-c000000004B9CDB200000000000000110
-t1268570912
-s272
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004B8F42F3000000000026F020
-t1267679987
-s2551840
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004B8F43240000000000288BB0
-t1267680036
-s2657200
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004B8F43150000000000001355
-t1267680021
-s4949
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004B8F6529000000000000098F
-t1267688745
-s2447
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004B8F657C000000000214CD40
-t1267688828
-s34917696
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/Availability.h
-c000000004B8E00810000000000001A1A
-t1267597441
-s6682
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/libxml2/libxml/xmlreader.h
-c000000004B8F42E80000000000003107
-t1267679976
-s12551
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/lib/libxml2.dylib
-c000000004B8F42E80000000000122A80
-t1267679976
-s1190528
-
-N/Users/ssimonov/Projects/TwitterPad/Classes/DetailViewController.h
-c000000004BA610B10000000000000262
-t1269174449
-s610
-i<UIKit/UIKit.h>
-
-N/Users/ssimonov/Projects/TwitterPad/Classes/DetailViewController.m
-c000000004BA610B10000000000000DC3
-t1269174449
-s3523
-i"DetailViewController.h"
-i"RootViewController.h"
-
-N/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterEngine.h
-c000000004BA2D5620000000000002195
-t1268962658
-s8597
-i"MGTwitterEngineGlobalHeader.h"
-i"MGTwitterEngineDelegate.h"
-i"MGTwitterParserDelegate.h"
-
-N/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterEngine.m
-c000000004BA610DB000000000000D4A9
-t1269174491
-s54441
-i"MGTwitterEngine.h"
-i"MGTwitterHTTPURLConnection.h"
-i"NSData+Base64.h"
-i"MGTwitterStatusesYAJLParser.h"
-i"MGTwitterMessagesYAJLParser.h"
-i"MGTwitterUsersYAJLParser.h"
-i"MGTwitterMiscYAJLParser.h"
-i"MGTwitterSearchYAJLParser.h"
-i"MGTwitterStatusesLibXMLParser.h"
-i"MGTwitterMessagesLibXMLParser.h"
-i"MGTwitterUsersLibXMLParser.h"
-i"MGTwitterMiscLibXMLParser.h"
-i"MGTwitterStatusesParser.h"
-i"MGTwitterUsersParser.h"
-i"MGTwitterMessagesParser.h"
-i"MGTwitterMiscParser.h"
-
-N/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterEngineDelegate.h
-c000000004BA2D562000000000000090B
-t1268962658
-s2315
-i"MGTwitterEngineGlobalHeader.h"
-
-N/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterEngineGlobalHeader.h
-c000000004BA2D5620000000000000BBF
-t1268962658
-s3007
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-i<Cocoa/Cocoa.h>
-
-N/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterHTTPURLConnection.h
-c000000004BA2D5620000000000000486
-t1268962658
-s1158
-i"MGTwitterEngineGlobalHeader.h"
-i"MGTwitterRequestTypes.h"
-
-N/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterHTTPURLConnection.m
-c000000004BA2D5620000000000000659
-t1268962658
-s1625
-i"MGTwitterHTTPURLConnection.h"
-i"NSString+UUID.h"
-
-N/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterLibXMLParser.h
-c000000004BA2D5620000000000000600
-t1268962658
-s1536
-i"MGTwitterEngineGlobalHeader.h"
-i<libxml/xmlreader.h>
-i"MGTwitterParserDelegate.h"
-
-N/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterLibXMLParser.m
-c000000004BA2D5620000000000002684
-t1268962658
-s9860
-i"MGTwitterLibXMLParser.h"
-
-N/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterMessagesLibXMLParser.h
-c000000004BA2D562000000000000012A
-t1268962658
-s298
-i"MGTwitterEngineGlobalHeader.h"
-i"MGTwitterLibXMLParser.h"
-
-N/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterMessagesLibXMLParser.m
-c000000004BA2D5620000000000000CD2
-t1268962658
-s3282
-i"MGTwitterMessagesLibXMLParser.h"
-
-N/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterMessagesParser.h
-c000000004BA2D5620000000000000122
-t1268962658
-s290
-i"MGTwitterEngineGlobalHeader.h"
-i"MGTwitterStatusesParser.h"
-
-N/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterMessagesParser.m
-c000000004BA2D562000000000000076B
-t1268962658
-s1899
-i"MGTwitterMessagesParser.h"
-
-N/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterMessagesYAJLParser.h
-c000000004BA2D5620000000000000183
-t1268962658
-s387
-i"MGTwitterEngineGlobalHeader.h"
-i"MGTwitterYAJLParser.h"
-
-N/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterMessagesYAJLParser.m
-c000000004BA2D5620000000000000848
-t1268962658
-s2120
-i"MGTwitterMessagesYAJLParser.h"
-
-N/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterMiscLibXMLParser.h
-c000000004BA2D5620000000000000122
-t1268962658
-s290
-i"MGTwitterEngineGlobalHeader.h"
-i"MGTwitterLibXMLParser.h"
-
-N/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterMiscLibXMLParser.m
-c000000004BA2D5620000000000000527
-t1268962658
-s1319
-i"MGTwitterMiscLibXMLParser.h"
-
-N/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterMiscParser.h
-c000000004BA2D5620000000000000130
-t1268962658
-s304
-i"MGTwitterEngineGlobalHeader.h"
-i"MGTwitterStatusesParser.h"
-
-N/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterMiscParser.m
-c000000004BA2D562000000000000056A
-t1268962658
-s1386
-i"MGTwitterMiscParser.h"
-
-N/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterMiscYAJLParser.h
-c000000004BA2D562000000000000013B
-t1268962658
-s315
-i"MGTwitterEngineGlobalHeader.h"
-i"MGTwitterYAJLParser.h"
-
-N/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterMiscYAJLParser.m
-c000000004BA2D56200000000000004E3
-t1268962658
-s1251
-i"MGTwitterMiscYAJLParser.h"
-
-N/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterParserDelegate.h
-c000000004BA2D5620000000000000330
-t1268962658
-s816
-i"MGTwitterEngineGlobalHeader.h"
-i"MGTwitterRequestTypes.h"
-
-N/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterRequestTypes.h
-c000000004BA2D562000000000000105F
-t1268962658
-s4191
-i"MGTwitterEngineGlobalHeader.h"
-
-N/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterSearchYAJLParser.h
-c000000004BA2D5620000000000000170
-t1268962658
-s368
-i"MGTwitterEngineGlobalHeader.h"
-i"MGTwitterYAJLParser.h"
-
-N/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterSearchYAJLParser.m
-c000000004BA2D5620000000000000761
-t1268962658
-s1889
-i"MGTwitterSearchYAJLParser.h"
-
-N/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterStatusesLibXMLParser.h
-c000000004BA2D562000000000000012A
-t1268962658
-s298
-i"MGTwitterEngineGlobalHeader.h"
-i"MGTwitterLibXMLParser.h"
-
-N/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterStatusesLibXMLParser.m
-c000000004BA2D56200000000000003A3
-t1268962658
-s931
-i"MGTwitterStatusesLibXMLParser.h"
-
-N/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterStatusesParser.h
-c000000004BA2D5620000000000000118
-t1268962658
-s280
-i"MGTwitterEngineGlobalHeader.h"
-i"MGTwitterXMLParser.h"
-
-N/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterStatusesParser.m
-c000000004BA2D562000000000000084B
-t1268962658
-s2123
-i"MGTwitterStatusesParser.h"
-
-N/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterStatusesYAJLParser.h
-c000000004BA2D562000000000000015E
-t1268962658
-s350
-i"MGTwitterEngineGlobalHeader.h"
-i"MGTwitterYAJLParser.h"
-
-N/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterStatusesYAJLParser.m
-c000000004BA2D562000000000000068B
-t1268962658
-s1675
-i"MGTwitterStatusesYAJLParser.h"
-
-N/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterUsersLibXMLParser.h
-c000000004BA2D5620000000000000124
-t1268962658
-s292
-i"MGTwitterEngineGlobalHeader.h"
-i"MGTwitterLibXMLParser.h"
-
-N/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterUsersLibXMLParser.m
-c000000004BA2D5620000000000000392
-t1268962658
-s914
-i"MGTwitterUsersLibXMLParser.h"
-
-N/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterUsersParser.h
-c000000004BA2D562000000000000011C
-t1268962658
-s284
-i"MGTwitterEngineGlobalHeader.h"
-i"MGTwitterStatusesParser.h"
-
-N/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterUsersParser.m
-c000000004BA2D56200000000000006F2
-t1268962658
-s1778
-i"MGTwitterUsersParser.h"
-
-N/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterUsersYAJLParser.h
-c000000004BA2D5620000000000000159
-t1268962658
-s345
-i"MGTwitterEngineGlobalHeader.h"
-i"MGTwitterYAJLParser.h"
-
-N/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterUsersYAJLParser.m
-c000000004BA2D5620000000000000654
-t1268962658
-s1620
-i"MGTwitterUsersYAJLParser.h"
-
-N/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterXMLParser.h
-c000000004BA2D5620000000000000459
-t1268962658
-s1113
-i"MGTwitterEngineGlobalHeader.h"
-i"MGTwitterParserDelegate.h"
-
-N/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterXMLParser.m
-c000000004BA2D5620000000000001315
-t1268962658
-s4885
-i"MGTwitterXMLParser.h"
-
-N/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterYAJLParser.h
-c000000004BA2D562000000000000066A
-t1268962658
-s1642
-i"MGTwitterEngineGlobalHeader.h"
-i"yajl_parse.h"
-i"MGTwitterParserDelegate.h"
-i"MGTwitterEngineDelegate.h"
-
-N/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterYAJLParser.m
-c000000004BA2D56200000000000023E5
-t1268962658
-s9189
-i"MGTwitterYAJLParser.h"
-
-N/Users/ssimonov/Projects/TwitterPad/Classes/NSData+Base64.h
-c000000004BA2D5620000000000000602
-t1268962658
-s1538
-i"MGTwitterEngineGlobalHeader.h"
-
-N/Users/ssimonov/Projects/TwitterPad/Classes/NSData+Base64.m
-c000000004BA2D5620000000000000F65
-t1268962658
-s3941
-i"NSData+Base64.h"
-i<Foundation/Foundation.h>
-
-N/Users/ssimonov/Projects/TwitterPad/Classes/NSString+UUID.h
-c000000004BA2D56200000000000000ED
-t1268962658
-s237
-i"MGTwitterEngineGlobalHeader.h"
-
-N/Users/ssimonov/Projects/TwitterPad/Classes/NSString+UUID.m
-c000000004BA2D56200000000000001E3
-t1268962658
-s483
-i"NSString+UUID.h"
-
-N/Users/ssimonov/Projects/TwitterPad/Classes/RootViewController.h
-c000000004BA610B10000000000000190
-t1269174449
-s400
-i<UIKit/UIKit.h>
-
-N/Users/ssimonov/Projects/TwitterPad/Classes/RootViewController.m
-c000000004BA610B100000000000010C6
-t1269174449
-s4294
-i"RootViewController.h"
-i"DetailViewController.h"
-
-N/Users/ssimonov/Projects/TwitterPad/Classes/TwitterPadAppDelegate+TwitterEngine.h
-c000000004BA611A30000000000000181
-t1269174691
-s385
-i<Foundation/Foundation.h>
-i"MGTwitterEngineGlobalHeader.h"
-i"MGTwitterEngine.h"
-i"TwitterPadAppDelegate.h"
-
-N/Users/ssimonov/Projects/TwitterPad/Classes/TwitterPadAppDelegate+TwitterEngine.m
-c000000004BA6117200000000000002B9
-t1269174642
-s697
-i"TwitterPadAppDelegate+TwitterEngine.h"
-
-N/Users/ssimonov/Projects/TwitterPad/Classes/TwitterPadAppDelegate.h
-c000000004BA610B1000000000000031A
-t1269174449
-s794
-i<UIKit/UIKit.h>
-
-N/Users/ssimonov/Projects/TwitterPad/Classes/TwitterPadAppDelegate.m
-c000000004BA610B10000000000000416
-t1269174449
-s1046
-i"TwitterPadAppDelegate.h"
-i"RootViewController.h"
-i"DetailViewController.h"
-
-N/Users/ssimonov/Projects/TwitterPad/DetailView.xib
-c000000004BA610B10000000000005005
-t1269174449
-s20485
-
-N/Users/ssimonov/Projects/TwitterPad/MainWindow.xib
-c000000004BA610B100000000000069D4
-t1269174449
-s27092
-
-N/Users/ssimonov/Projects/TwitterPad/TwitterPad_Prefix.pch
-c000000004BA610B10000000000000146
-t1269174449
-s326
-i<Availability.h>
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator/TwitterPad.app
-t1269174678
-s238
-
-N/Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator/TwitterPad.app.dSYM
-t1269174678
-s102
-
-N/Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator/TwitterPad.app/DetailView.nib
-t1269174652
-s1431
-
-N/Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator/TwitterPad.app/Info.plist
-t1269174650
-s810
-
-N/Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator/TwitterPad.app/MainWindow.nib
-t1269174652
-s1931
-
-N/Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator/TwitterPad.app/PkgInfo
-t1269174650
-s8
-
-N/Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator/TwitterPad.app/TwitterPad
-t1269174678
-s103820
-
-N/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/DetailViewController.o
-t1269174659
-s43524
-
-N/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterEngine.o
-t1269174659
-s86900
-
-N/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterHTTPURLConnection.o
-t1269174659
-s14716
-
-N/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterLibXMLParser.o
-t1269174659
-s28600
-
-N/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterMessagesLibXMLParser.o
-t1269174660
-s13464
-
-N/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterMessagesParser.o
-t1269174661
-s12328
-
-N/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterMessagesYAJLParser.o
-t2
-s0
-
-N/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterMiscLibXMLParser.o
-t1269174660
-s10444
-
-N/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterMiscParser.o
-t1269174661
-s11932
-
-N/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterMiscYAJLParser.o
-t2
-s0
-
-N/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterSearchYAJLParser.o
-t2
-s0
-
-N/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterStatusesLibXMLParser.o
-t1269174660
-s9696
-
-N/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterStatusesParser.o
-t1269174660
-s12612
-
-N/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterStatusesYAJLParser.o
-t2
-s0
-
-N/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterUsersLibXMLParser.o
-t1269174660
-s9664
-
-N/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterUsersParser.o
-t1269174660
-s12088
-
-N/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterUsersYAJLParser.o
-t2
-s0
-
-N/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterXMLParser.o
-t1269174660
-s20104
-
-N/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterYAJLParser.o
-t2
-s0
-
-N/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/NSData+Base64.o
-t1269174661
-s11096
-
-N/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/NSString+UUID.o
-t1269174661
-s6380
-
-N/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/RootViewController.o
-t1269174658
-s41228
-
-N/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/TwitterPad.LinkFileList
-c000000004BA6117A0000000000000A89
-t1269174650
-s2697
-
-N/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/TwitterPadAppDelegate+TwitterEngine.o
-t1269174678
-s36988
-
-N/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/TwitterPadAppDelegate.o
-t1269174658
-s46124
-
-N/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/main.o
-t1269174658
-s5936
-
-N/Users/ssimonov/Projects/TwitterPad/main.m
-c000000004BA610B1000000000000016C
-t1269174449
-s364
-i<UIKit/UIKit.h>
-
-N/var/folders/oW/oWu1nSiZFmyvGSBkpyjLtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwitterPad_Prefix-azcntausmmfbmrfvklxbmrbneoci/TwitterPad_Prefix.pch.gch
-t1269170802
-s9261632
-
-N/var/folders/oW/oWu1nSiZFmyvGSBkpyjLtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwitterPad_Prefix-cwapcyhusjeqtgdaodefqxqeussm/TwitterPad_Prefix.pch.gch
-t1269174655
-s9261632
-
-NTwitterPad-Info.plist
-c000000004BA610B100000000000004D6
-t1269174449
-s1238
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies290867477#290867477#0(0"0(0#1#0"2478516336#0"0#
-
-CCompileC build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/DetailViewController.o /Users/ssimonov/Projects/TwitterPad/Classes/DetailViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s290867458.934100
-e290867459.084236
-r1
-xCompileC
-xbuild/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/DetailViewController.o
-x/Users/ssimonov/Projects/TwitterPad/Classes/DetailViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@74"Compile /Users/ssimonov/Projects/TwitterPad/Classes/DetailViewController.m290867458#290867459#0(0"0(0#0#66"/Users/ssimonov/Projects/TwitterPad/Classes/DetailViewController.m2478516336#2030"    cd /Users/ssimonov/Projects/TwitterPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-generated-files.hmap -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-own-target-headers.hmap -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-all-target-headers.hmap -iquote /Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-project-headers.hmap -F/Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator -I/Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/libxml2 -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/DerivedSources/i386 -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/DerivedSources -include /var/folders/oW/oWu1nSiZFmyvGSBkpyjLtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwitterPad_Prefix-cwapcyhusjeqtgdaodefqxqeussm/TwitterPad_Prefix.pch -c /Users/ssimonov/Projects/TwitterPad/Classes/DetailViewController.m -o /Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/DetailViewController.o0#
-
-CCompileC build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterEngine.o /Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterEngine.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s290867459.084377
-e290867459.584740
-r1
-xCompileC
-xbuild/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterEngine.o
-x/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterEngine.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@69"Compile /Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterEngine.m290867459#290867459#0(0"0(0#0#61"/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterEngine.m2478516336#2020"    cd /Users/ssimonov/Projects/TwitterPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-generated-files.hmap -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-own-target-headers.hmap -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-all-target-headers.hmap -iquote /Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-project-headers.hmap -F/Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator -I/Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/libxml2 -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/DerivedSources/i386 -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/DerivedSources -include /var/folders/oW/oWu1nSiZFmyvGSBkpyjLtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwitterPad_Prefix-cwapcyhusjeqtgdaodefqxqeussm/TwitterPad_Prefix.pch -c /Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterEngine.m -o /Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterEngine.o0#
-
-CCompileC build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterHTTPURLConnection.o /Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterHTTPURLConnection.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s290867459.584890
-e290867459.731019
-r1
-xCompileC
-xbuild/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterHTTPURLConnection.o
-x/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterHTTPURLConnection.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@80"Compile /Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterHTTPURLConnection.m290867459#290867459#0(0"0(0#0#72"/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterHTTPURLConnection.m2478516336#2042"    cd /Users/ssimonov/Projects/TwitterPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-generated-files.hmap -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-own-target-headers.hmap -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-all-target-headers.hmap -iquote /Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-project-headers.hmap -F/Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator -I/Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/libxml2 -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/DerivedSources/i386 -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/DerivedSources -include /var/folders/oW/oWu1nSiZFmyvGSBkpyjLtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwitterPad_Prefix-cwapcyhusjeqtgdaodefqxqeussm/TwitterPad_Prefix.pch -c /Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterHTTPURLConnection.m -o /Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterHTTPURLConnection.o0#
-
-CCompileC build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterLibXMLParser.o /Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterLibXMLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s290867459.731164
-e290867459.972838
-r1
-xCompileC
-xbuild/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterLibXMLParser.o
-x/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterLibXMLParser.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@75"Compile /Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterLibXMLParser.m290867459#290867459#0(0"0(0#0#67"/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterLibXMLParser.m2478516336#2032"    cd /Users/ssimonov/Projects/TwitterPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-generated-files.hmap -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-own-target-headers.hmap -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-all-target-headers.hmap -iquote /Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-project-headers.hmap -F/Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator -I/Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/libxml2 -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/DerivedSources/i386 -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/DerivedSources -include /var/folders/oW/oWu1nSiZFmyvGSBkpyjLtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwitterPad_Prefix-cwapcyhusjeqtgdaodefqxqeussm/TwitterPad_Prefix.pch -c /Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterLibXMLParser.m -o /Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterLibXMLParser.o0#
-
-CCompileC build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterMessagesLibXMLParser.o /Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterMessagesLibXMLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s290867460.273040
-e290867460.423264
-r1
-xCompileC
-xbuild/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterMessagesLibXMLParser.o
-x/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterMessagesLibXMLParser.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@83"Compile /Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterMessagesLibXMLParser.m290867460#290867460#0(0"0(0#0#75"/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterMessagesLibXMLParser.m2478516336#2048"    cd /Users/ssimonov/Projects/TwitterPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-generated-files.hmap -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-own-target-headers.hmap -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-all-target-headers.hmap -iquote /Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-project-headers.hmap -F/Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator -I/Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/libxml2 -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/DerivedSources/i386 -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/DerivedSources -include /var/folders/oW/oWu1nSiZFmyvGSBkpyjLtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwitterPad_Prefix-cwapcyhusjeqtgdaodefqxqeussm/TwitterPad_Prefix.pch -c /Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterMessagesLibXMLParser.m -o /Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterMessagesLibXMLParser.o0#
-
-CCompileC build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterMessagesParser.o /Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterMessagesParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s290867460.891565
-e290867461.003494
-r1
-xCompileC
-xbuild/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterMessagesParser.o
-x/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterMessagesParser.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@77"Compile /Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterMessagesParser.m290867460#290867461#0(0"0(0#0#69"/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterMessagesParser.m2478516336#2036"    cd /Users/ssimonov/Projects/TwitterPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-generated-files.hmap -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-own-target-headers.hmap -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-all-target-headers.hmap -iquote /Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-project-headers.hmap -F/Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator -I/Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/libxml2 -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/DerivedSources/i386 -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/DerivedSources -include /var/folders/oW/oWu1nSiZFmyvGSBkpyjLtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwitterPad_Prefix-cwapcyhusjeqtgdaodefqxqeussm/TwitterPad_Prefix.pch -c /Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterMessagesParser.m -o /Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterMessagesParser.o0#
-
-CCompileC build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterMessagesYAJLParser.o /Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterMessagesYAJLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterMiscLibXMLParser.o /Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterMiscLibXMLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s290867460.423414
-e290867460.575856
-r1
-xCompileC
-xbuild/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterMiscLibXMLParser.o
-x/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterMiscLibXMLParser.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@79"Compile /Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterMiscLibXMLParser.m290867460#290867460#0(0"0(0#0#71"/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterMiscLibXMLParser.m2478516336#2040"    cd /Users/ssimonov/Projects/TwitterPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-generated-files.hmap -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-own-target-headers.hmap -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-all-target-headers.hmap -iquote /Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-project-headers.hmap -F/Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator -I/Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/libxml2 -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/DerivedSources/i386 -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/DerivedSources -include /var/folders/oW/oWu1nSiZFmyvGSBkpyjLtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwitterPad_Prefix-cwapcyhusjeqtgdaodefqxqeussm/TwitterPad_Prefix.pch -c /Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterMiscLibXMLParser.m -o /Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterMiscLibXMLParser.o0#
-
-CCompileC build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterMiscParser.o /Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterMiscParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s290867461.003641
-e290867461.093693
-r1
-xCompileC
-xbuild/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterMiscParser.o
-x/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterMiscParser.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@73"Compile /Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterMiscParser.m290867461#290867461#0(0"0(0#0#65"/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterMiscParser.m2478516336#2028"    cd /Users/ssimonov/Projects/TwitterPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-generated-files.hmap -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-own-target-headers.hmap -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-all-target-headers.hmap -iquote /Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-project-headers.hmap -F/Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator -I/Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/libxml2 -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/DerivedSources/i386 -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/DerivedSources -include /var/folders/oW/oWu1nSiZFmyvGSBkpyjLtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwitterPad_Prefix-cwapcyhusjeqtgdaodefqxqeussm/TwitterPad_Prefix.pch -c /Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterMiscParser.m -o /Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterMiscParser.o0#
-
-CCompileC build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterMiscYAJLParser.o /Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterMiscYAJLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterSearchYAJLParser.o /Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterSearchYAJLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterStatusesLibXMLParser.o /Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterStatusesLibXMLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s290867459.973087
-e290867460.104328
-r1
-xCompileC
-xbuild/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterStatusesLibXMLParser.o
-x/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterStatusesLibXMLParser.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@83"Compile /Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterStatusesLibXMLParser.m290867459#290867460#0(0"0(0#0#75"/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterStatusesLibXMLParser.m2478516336#2048"    cd /Users/ssimonov/Projects/TwitterPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-generated-files.hmap -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-own-target-headers.hmap -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-all-target-headers.hmap -iquote /Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-project-headers.hmap -F/Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator -I/Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/libxml2 -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/DerivedSources/i386 -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/DerivedSources -include /var/folders/oW/oWu1nSiZFmyvGSBkpyjLtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwitterPad_Prefix-cwapcyhusjeqtgdaodefqxqeussm/TwitterPad_Prefix.pch -c /Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterStatusesLibXMLParser.m -o /Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterStatusesLibXMLParser.o0#
-
-CCompileC build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterStatusesParser.o /Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterStatusesParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s290867460.695733
-e290867460.803488
-r1
-xCompileC
-xbuild/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterStatusesParser.o
-x/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterStatusesParser.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@77"Compile /Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterStatusesParser.m290867460#290867460#0(0"0(0#0#69"/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterStatusesParser.m2478516336#2036"    cd /Users/ssimonov/Projects/TwitterPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-generated-files.hmap -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-own-target-headers.hmap -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-all-target-headers.hmap -iquote /Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-project-headers.hmap -F/Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator -I/Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/libxml2 -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/DerivedSources/i386 -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/DerivedSources -include /var/folders/oW/oWu1nSiZFmyvGSBkpyjLtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwitterPad_Prefix-cwapcyhusjeqtgdaodefqxqeussm/TwitterPad_Prefix.pch -c /Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterStatusesParser.m -o /Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterStatusesParser.o0#
-
-CCompileC build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterStatusesYAJLParser.o /Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterStatusesYAJLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterUsersLibXMLParser.o /Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterUsersLibXMLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s290867460.104703
-e290867460.272801
-r1
-xCompileC
-xbuild/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterUsersLibXMLParser.o
-x/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterUsersLibXMLParser.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@80"Compile /Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterUsersLibXMLParser.m290867460#290867460#0(0"0(0#0#72"/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterUsersLibXMLParser.m2478516336#2042"    cd /Users/ssimonov/Projects/TwitterPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-generated-files.hmap -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-own-target-headers.hmap -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-all-target-headers.hmap -iquote /Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-project-headers.hmap -F/Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator -I/Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/libxml2 -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/DerivedSources/i386 -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/DerivedSources -include /var/folders/oW/oWu1nSiZFmyvGSBkpyjLtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwitterPad_Prefix-cwapcyhusjeqtgdaodefqxqeussm/TwitterPad_Prefix.pch -c /Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterUsersLibXMLParser.m -o /Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterUsersLibXMLParser.o0#
-
-CCompileC build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterUsersParser.o /Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterUsersParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s290867460.803629
-e290867460.891422
-r1
-xCompileC
-xbuild/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterUsersParser.o
-x/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterUsersParser.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@74"Compile /Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterUsersParser.m290867460#290867460#0(0"0(0#0#66"/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterUsersParser.m2478516336#2030"    cd /Users/ssimonov/Projects/TwitterPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-generated-files.hmap -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-own-target-headers.hmap -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-all-target-headers.hmap -iquote /Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-project-headers.hmap -F/Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator -I/Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/libxml2 -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/DerivedSources/i386 -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/DerivedSources -include /var/folders/oW/oWu1nSiZFmyvGSBkpyjLtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwitterPad_Prefix-cwapcyhusjeqtgdaodefqxqeussm/TwitterPad_Prefix.pch -c /Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterUsersParser.m -o /Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterUsersParser.o0#
-
-CCompileC build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterUsersYAJLParser.o /Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterUsersYAJLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterXMLParser.o /Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterXMLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s290867460.575998
-e290867460.695587
-r1
-xCompileC
-xbuild/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterXMLParser.o
-x/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterXMLParser.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterXMLParser.m: In function '-[MGTwitterXMLParser parser:didEndElement:namespaceURI:qualifiedName:]':
-o/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterXMLParser.m:114: warning: 'NSDate' may not respond to '+dateWithNaturalLanguageString:'
-o/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterXMLParser.m:114: warning: (Messages without a matching method signature
-o/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterXMLParser.m:114: warning: will be assumed to return 'id' and accept
-o/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterXMLParser.m:114: warning: '...' as arguments.)
-lSLF07#2@72"Compile /Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterXMLParser.m290867460#290867460#0(639"/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterXMLParser.m: In function '-[MGTwitterXMLParser parser:didEndElement:namespaceURI:qualifiedName:]':/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterXMLParser.m:114: warning: 'NSDate' may not respond to '+dateWithNaturalLanguageString:'/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterXMLParser.m:114: warning: (Messages without a matching method signature/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterXMLParser.m:114: warning: will be assumed to return 'id' and accept/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterXMLParser.m:114: warning: '...' as arguments.)2(22@61"'NSDate' may not respond to '+dateWithNaturalLanguageString:'290867460#152#141#0(6@64"/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterXMLParser.m290655458#114#0#114#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)290867460#293#125#0(6@64"/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterXMLParser.m290655458#114#0#114#0#0"0(0#0#64"/Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterXMLParser.m2478516336#2026"    cd /Users/ssimonov/Projects/TwitterPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-generated-files.hmap -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-own-target-headers.hmap -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-all-target-headers.hmap -iquote /Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-project-headers.hmap -F/Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator -I/Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/libxml2 -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/DerivedSources/i386 -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/DerivedSources -include /var/folders/oW/oWu1nSiZFmyvGSBkpyjLtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwitterPad_Prefix-cwapcyhusjeqtgdaodefqxqeussm/TwitterPad_Prefix.pch -c /Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterXMLParser.m -o /Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterXMLParser.o0#
-
-CCompileC build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/MGTwitterYAJLParser.o /Users/ssimonov/Projects/TwitterPad/Classes/MGTwitterYAJLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/NSData+Base64.o /Users/ssimonov/Projects/TwitterPad/Classes/NSData+Base64.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s290867461.187967
-e290867461.327417
-r1
-xCompileC
-xbuild/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/NSData+Base64.o
-x/Users/ssimonov/Projects/TwitterPad/Classes/NSData+Base64.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@67"Compile /Users/ssimonov/Projects/TwitterPad/Classes/NSData+Base64.m290867461#290867461#0(0"0(0#0#59"/Users/ssimonov/Projects/TwitterPad/Classes/NSData+Base64.m2478516336#2016"    cd /Users/ssimonov/Projects/TwitterPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-generated-files.hmap -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-own-target-headers.hmap -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-all-target-headers.hmap -iquote /Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-project-headers.hmap -F/Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator -I/Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/libxml2 -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/DerivedSources/i386 -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/DerivedSources -include /var/folders/oW/oWu1nSiZFmyvGSBkpyjLtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwitterPad_Prefix-cwapcyhusjeqtgdaodefqxqeussm/TwitterPad_Prefix.pch -c /Users/ssimonov/Projects/TwitterPad/Classes/NSData+Base64.m -o /Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/NSData+Base64.o0#
-
-CCompileC build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/NSString+UUID.o /Users/ssimonov/Projects/TwitterPad/Classes/NSString+UUID.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s290867461.093888
-e290867461.187826
-r1
-xCompileC
-xbuild/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/NSString+UUID.o
-x/Users/ssimonov/Projects/TwitterPad/Classes/NSString+UUID.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@67"Compile /Users/ssimonov/Projects/TwitterPad/Classes/NSString+UUID.m290867461#290867461#0(0"0(0#0#59"/Users/ssimonov/Projects/TwitterPad/Classes/NSString+UUID.m2478516336#2016"    cd /Users/ssimonov/Projects/TwitterPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-generated-files.hmap -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-own-target-headers.hmap -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-all-target-headers.hmap -iquote /Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-project-headers.hmap -F/Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator -I/Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/libxml2 -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/DerivedSources/i386 -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/DerivedSources -include /var/folders/oW/oWu1nSiZFmyvGSBkpyjLtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwitterPad_Prefix-cwapcyhusjeqtgdaodefqxqeussm/TwitterPad_Prefix.pch -c /Users/ssimonov/Projects/TwitterPad/Classes/NSString+UUID.m -o /Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/NSString+UUID.o0#
-
-CCompileC build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/RootViewController.o /Users/ssimonov/Projects/TwitterPad/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s290867458.736085
-e290867458.933826
-r1
-xCompileC
-xbuild/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/RootViewController.o
-x/Users/ssimonov/Projects/TwitterPad/Classes/RootViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@72"Compile /Users/ssimonov/Projects/TwitterPad/Classes/RootViewController.m290867458#290867458#0(0"0(0#0#64"/Users/ssimonov/Projects/TwitterPad/Classes/RootViewController.m2478516336#2026"    cd /Users/ssimonov/Projects/TwitterPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-generated-files.hmap -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-own-target-headers.hmap -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-all-target-headers.hmap -iquote /Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-project-headers.hmap -F/Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator -I/Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/libxml2 -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/DerivedSources/i386 -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/DerivedSources -include /var/folders/oW/oWu1nSiZFmyvGSBkpyjLtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwitterPad_Prefix-cwapcyhusjeqtgdaodefqxqeussm/TwitterPad_Prefix.pch -c /Users/ssimonov/Projects/TwitterPad/Classes/RootViewController.m -o /Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/RootViewController.o0#
-
-CCompileC build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/TwitterPadAppDelegate+TwitterEngine.o /Users/ssimonov/Projects/TwitterPad/Classes/TwitterPadAppDelegate+TwitterEngine.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s290867477.910841
-e290867478.022865
-r1
-xCompileC
-xbuild/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/TwitterPadAppDelegate+TwitterEngine.o
-x/Users/ssimonov/Projects/TwitterPad/Classes/TwitterPadAppDelegate+TwitterEngine.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@89"Compile /Users/ssimonov/Projects/TwitterPad/Classes/TwitterPadAppDelegate+TwitterEngine.m290867477#290867478#0(0"0(0#0#81"/Users/ssimonov/Projects/TwitterPad/Classes/TwitterPadAppDelegate+TwitterEngine.m2478516336#2060"    cd /Users/ssimonov/Projects/TwitterPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-generated-files.hmap -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-own-target-headers.hmap -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-all-target-headers.hmap -iquote /Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-project-headers.hmap -F/Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator -I/Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/libxml2 -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/DerivedSources/i386 -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/DerivedSources -include /var/folders/oW/oWu1nSiZFmyvGSBkpyjLtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwitterPad_Prefix-cwapcyhusjeqtgdaodefqxqeussm/TwitterPad_Prefix.pch -c /Users/ssimonov/Projects/TwitterPad/Classes/TwitterPadAppDelegate+TwitterEngine.m -o /Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/TwitterPadAppDelegate+TwitterEngine.o0#
-
-CCompileC build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/TwitterPadAppDelegate.o /Users/ssimonov/Projects/TwitterPad/Classes/TwitterPadAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s290867458.364380
-e290867458.735939
-r1
-xCompileC
-xbuild/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/TwitterPadAppDelegate.o
-x/Users/ssimonov/Projects/TwitterPad/Classes/TwitterPadAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@75"Compile /Users/ssimonov/Projects/TwitterPad/Classes/TwitterPadAppDelegate.m290867458#290867458#0(0"0(0#0#67"/Users/ssimonov/Projects/TwitterPad/Classes/TwitterPadAppDelegate.m2478516336#2032"    cd /Users/ssimonov/Projects/TwitterPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-generated-files.hmap -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-own-target-headers.hmap -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-all-target-headers.hmap -iquote /Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-project-headers.hmap -F/Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator -I/Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/libxml2 -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/DerivedSources/i386 -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/DerivedSources -include /var/folders/oW/oWu1nSiZFmyvGSBkpyjLtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwitterPad_Prefix-cwapcyhusjeqtgdaodefqxqeussm/TwitterPad_Prefix.pch -c /Users/ssimonov/Projects/TwitterPad/Classes/TwitterPadAppDelegate.m -o /Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/TwitterPadAppDelegate.o0#
-
-CCompileC build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/main.o /Users/ssimonov/Projects/TwitterPad/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s290867456.018451
-e290867458.364108
-r1
-xCompileC
-xbuild/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/main.o
-x/Users/ssimonov/Projects/TwitterPad/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@50"Compile /Users/ssimonov/Projects/TwitterPad/main.m290867456#290867458#0(0"0(0#0#42"/Users/ssimonov/Projects/TwitterPad/main.m2478516336#1990"    cd /Users/ssimonov/Projects/TwitterPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-generated-files.hmap -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-own-target-headers.hmap -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-all-target-headers.hmap -iquote /Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-project-headers.hmap -F/Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator -I/Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/libxml2 -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/DerivedSources/i386 -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/DerivedSources -include /var/folders/oW/oWu1nSiZFmyvGSBkpyjLtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwitterPad_Prefix-cwapcyhusjeqtgdaodefqxqeussm/TwitterPad_Prefix.pch -c /Users/ssimonov/Projects/TwitterPad/main.m -o /Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/main.o0#
-
-CCompileXIB /Users/ssimonov/Projects/TwitterPad/DetailView.xib
-s290867450.682612
-e290867452.728565
-r1
-xCompileXIB
-x/Users/ssimonov/Projects/TwitterPad/DetailView.xib
-lSLF07#2@25"CompileXIB DetailView.xib290867450#290867452#0(0"0(0#0#50"/Users/ssimonov/Projects/TwitterPad/DetailView.xib2478516336#474"    cd /Users/ssimonov/Projects/TwitterPad    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator/TwitterPad.app/DetailView.nib /Users/ssimonov/Projects/TwitterPad/DetailView.xib0#
-
-CCompileXIB /Users/ssimonov/Projects/TwitterPad/MainWindow.xib
-s290867450.680449
-e290867452.726772
-r1
-xCompileXIB
-x/Users/ssimonov/Projects/TwitterPad/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib290867450#290867452#0(0"0(0#0#50"/Users/ssimonov/Projects/TwitterPad/MainWindow.xib2478516336#474"    cd /Users/ssimonov/Projects/TwitterPad    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator/TwitterPad.app/MainWindow.nib /Users/ssimonov/Projects/TwitterPad/MainWindow.xib0#
-
-CGenerateDSYMFile /Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator/TwitterPad.app.dSYM /Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator/TwitterPad.app/TwitterPad
-s290867478.165966
-e290867478.280147
-r1
-xGenerateDSYMFile
-x/Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator/TwitterPad.app.dSYM
-x/Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator/TwitterPad.app/TwitterPad
-lSLF07#2@118"GenerateDSYMFile build/Debug-iphonesimulator/TwitterPad.app.dSYM build/Debug-iphonesimulator/TwitterPad.app/TwitterPad290867478#290867478#0(0"0(0#0#89"/Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator/TwitterPad.app/TwitterPad2478516336#383"    cd /Users/ssimonov/Projects/TwitterPad    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator/TwitterPad.app/TwitterPad -o /Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator/TwitterPad.app.dSYM0#
-
-CLd /Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator/TwitterPad.app/TwitterPad normal i386
-s290867478.023000
-e290867478.165829
-r1
-xLd
-x/Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator/TwitterPad.app/TwitterPad
-xnormal
-xi386
-lSLF07#2@94"Link /Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator/TwitterPad.app/TwitterPad290867478#290867478#0(0"0(0#0#0"2478516336#869"    cd /Users/ssimonov/Projects/TwitterPad    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -L/Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator -F/Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator -filelist /Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/Objects-normal/i386/TwitterPad.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -lxml2 -o /Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator/TwitterPad.app/TwitterPad0#
-
-CProcessInfoPlistFile /Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator/TwitterPad.app/Info.plist TwitterPad-Info.plist
-s290867450.674424
-e290867450.680264
-r1
-xProcessInfoPlistFile
-x/Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator/TwitterPad.app/Info.plist
-xTwitterPad-Info.plist
-lSLF07#2@29"Process TwitterPad-Info.plist290867450#290867450#0(0"0(0#0#57"/Users/ssimonov/Projects/TwitterPad/TwitterPad-Info.plist2478516336#479"    cd /Users/ssimonov/Projects/TwitterPad    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility TwitterPad-Info.plist -genpkginfo /Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator/TwitterPad.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator/TwitterPad.app/Info.plist0#
-
-CProcessPCH /var/folders/oW/oWu1nSiZFmyvGSBkpyjLtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwitterPad_Prefix-azcntausmmfbmrfvklxbmrbneoci/TwitterPad_Prefix.pch.gch TwitterPad_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CProcessPCH /var/folders/oW/oWu1nSiZFmyvGSBkpyjLtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwitterPad_Prefix-cwapcyhusjeqtgdaodefqxqeussm/TwitterPad_Prefix.pch.gch TwitterPad_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s290867452.728776
-e290867456.018184
-r1
-xProcessPCH
-x/var/folders/oW/oWu1nSiZFmyvGSBkpyjLtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwitterPad_Prefix-cwapcyhusjeqtgdaodefqxqeussm/TwitterPad_Prefix.pch.gch
-xTwitterPad_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@32"Precompile TwitterPad_Prefix.pch290867452#290867456#0(0"0(0#0#57"/Users/ssimonov/Projects/TwitterPad/TwitterPad_Prefix.pch2478516336#1882"    cd /Users/ssimonov/Projects/TwitterPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-generated-files.hmap -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-own-target-headers.hmap -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-all-target-headers.hmap -iquote /Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/TwitterPad-project-headers.hmap -F/Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator -I/Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/libxml2 -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/DerivedSources/i386 -I/Users/ssimonov/Projects/TwitterPad/build/TwitterPad.build/Debug-iphonesimulator/TwitterPad.build/DerivedSources -c /Users/ssimonov/Projects/TwitterPad/TwitterPad_Prefix.pch -o /var/folders/oW/oWu1nSiZFmyvGSBkpyjLtk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwitterPad_Prefix-cwapcyhusjeqtgdaodefqxqeussm/TwitterPad_Prefix.pch.gch0#
-
-CTouch /Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator/TwitterPad.app
-s290867478.280271
-e290867478.326425
-r1
-xTouch
-x/Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator/TwitterPad.app
-lSLF07#2@84"Touch /Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator/TwitterPad.app290867478#290867478#0(0"0(0#0#0"2478516336#275"    cd /Users/ssimonov/Projects/TwitterPad    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/ssimonov/Projects/TwitterPad/build/Debug-iphonesimulator/TwitterPad.app0#
-
